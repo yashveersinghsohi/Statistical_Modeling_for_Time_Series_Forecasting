@@ -1,6 +1,15 @@
 # Statistical_Modeling_for_Time_Series_Forecasting
 The S&amp;P 500 Market Index is analysed using popular statistical models such as **SARIMA**, **ETS** and **GARCH**. Additionally, a powerful open source forecasting package from Facebook, called **Prophet**, is also explored and used to generate forecasts.
 
+# Blogs
+If you prefer an in-depth explanation for the code in this repository, I would recommend going through the followig articles where I have explained my approch in detail - 
+- [Statistical Modeling of Time Series Data Part 1: Data Preparation and Preprocessing](https://medium.com/towards-artificial-intelligence/statistical-modeling-of-time-series-data-part-1-data-preparation-and-preprocessing-b52f26f6213c)
+- [Statistical Modeling of Time Series Data Part 2: Exploratory Data Analysis](https://medium.com/towards-artificial-intelligence/statistical-modeling-of-time-series-data-part-2-exploratory-data-analysis-5c3aaedc04b7)
+- [Statistical Modeling of Time Series Data Part 3: Forecasting Stationary Time Series using SARIMA](https://medium.com/towards-artificial-intelligence/statistical-modeling-of-time-series-data-part-3-forecasting-stationary-time-series-using-sarima-f0ff1284bebb)
+- [Statistical Forecasting of Time Series Data Part 4: Forecasting Volatility using GARCH](https://medium.com/towards-artificial-intelligence/statistical-forecasting-of-time-series-data-part-4-forecasting-volatility-using-garch-1e9ff832f7e5)
+- [Statistical Forecasting for Time Series Data Part 5: ARMA+GARCH model for Time Series Forecasting](https://medium.com/towards-artificial-intelligence/statistical-forecasting-for-time-series-data-part-5-arma-garch-model-for-time-series-forecasting-98beeedcfba8)
+- [Statistical Forecasting for Time Series Data Part 6: Forecasting Non-Stationary Time Series using ARIMA](https://medium.com/towards-artificial-intelligence/statistical-forecasting-for-time-series-data-part-6-forecasting-non-stationary-time-series-using-9acc28c39db9)
+
 # Acquiring Data and Data Preprocessing
 The **S&amp;P 500** stock market **Prices** are scrapped from Yahoo's `yfinance` library in python. The data is then cleaned and used to build 2 other important time series: S&amp;P 500 **Returns** (percent change in Prices) and **Volatility** (Magnitude of Returns). All these steps are in the `Preprocessing.ipynb` notebook.
 
